@@ -1,0 +1,1 @@
+web: uvicorn bot:app --reload --workers 1

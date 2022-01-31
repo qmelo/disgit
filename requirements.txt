@@ -1,0 +1,4 @@
+py-cord==2.0.0b1
+python-dotenv==0.19.2
+uvicorn==0.16.0
+fastapi==0.70.1

@@ -1,0 +1,39 @@
+{
+    "channels": [
+        {
+            "name": "テキストチャンネル",
+            "id": 917782507041206303,
+            "type": "category",
+            "category": null,
+            "position": 0
+        },
+        {
+            "name": "ボイスチャンネル",
+            "id": 917782507041206304,
+            "type": "category",
+            "category": null,
+            "position": 0
+        },
+        {
+            "name": "一般",
+            "id": 917782507041206306,
+            "type": "text",
+            "category": 917782507041206303,
+            "position": 0
+        },
+        {
+            "name": "一般",
+            "id": 917782507041206307,
+            "type": "voice",
+            "category": 917782507041206304,
+            "position": 0
+        },
+        {
+            "name": "github",
+            "id": 937700456237502465,
+            "type": "text",
+            "category": 917782507041206303,
+            "position": 1
+        }
+    ]
+}

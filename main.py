@@ -7,7 +7,7 @@ from routers import hello
 from settings import DISCORD_BOT_TOKEN
 
 app = FastAPI()
-app.include_router(hello.router, prefix='/hello')
+app.include_router(hello.router, prefix='')
 
 bot.load_extension('cogs.ping')
 

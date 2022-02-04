@@ -16,10 +16,10 @@ async def channels(guild_id: int):
     items = []
     for channel in guild.channels:
         item = {}
-        item['name'] = channel.name
-        item['id'] = channel.id
-        item['type'] = channel.type.name
-        item['category'] = channel.category_id
-        item['position'] = channel.position
+        item['name'] = str(channel.name)
+        item['id'] = str(channel.id)
+        item['type'] = str(channel.type.name)
+        item['category'] = str(channel.category_id)
+        item['position'] = str(channel.position)
         items.append(item)
     return {'channels': items}
